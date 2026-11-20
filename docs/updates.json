@@ -4,12 +4,13 @@
   "shortcuts": {
     "youtube_downloader": {
       "name": "YouTube Downloader",
-      "status": "preparing",
+      "status": "published",
       "version": "1.0.0",
       "version_code": 1000000,
-      "install_url": null,
+      "install_url": "https://www.icloud.com/shortcuts/1b4d376be9ac49698888de1a44a45837",
       "notes": [
-        "첫 공개 버전"
+        "v1.0.0 첫 공개",
+        "영상·음성·썸네일 저장 및 화질·날짜 선택"
       ],
       "detail_url": "https://app.notion.com/p/41e672d9690b812a9658e32d6458de5a",
       "required": false
