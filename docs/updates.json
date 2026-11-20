@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "published_at": "2026-11-20",
+  "shortcuts": {
+    "youtube_downloader": {
+      "name": "YouTube Downloader",
+      "status": "preparing",
+      "version": "1.0.0",
+      "version_code": 1000000,
+      "install_url": null,
+      "notes": [
+        "첫 공개 버전"
+      ],
+      "detail_url": "https://app.notion.com/p/41e672d9690b812a9658e32d6458de5a",
+      "required": false
+    }
+  }
+}
