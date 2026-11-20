@@ -1,6 +1,6 @@
 # 🥟 만두양의 단축어 스튜디오
 
-> **2026-11-20 v1.0.2 배포 후보:** 다른 iPhone에서 처음 실행할 때 발생한 a-Shell 폴더 참조 오류 대응판입니다. [최신 단축어 설치](https://www.icloud.com/shortcuts/3c49c4d0924b4a9798530b2210f3536b) · [변경 내역 및 배포 상태](https://min5ol.github.io/mandooxanx/updates.json). 이전 v1.0.0 공유 링크는 이 저장소에서 더 이상 안내하지 않습니다.
+> **2026-11-20 v1.0.2 정식 배포:** 기존 a-Shell 폴더 참조 오류 수정에 더해 실행 전 업데이트 버전 비교값을 조정한 릴리스입니다. [최신 단축어 설치](https://www.icloud.com/shortcuts/3c49c4d0924b4a9798530b2210f3536b) · [변경 내역 및 배포 상태](https://min5ol.github.io/mandooxanx/updates.json). 이전 v1.0.0 공유 링크는 이 저장소에서 더 이상 안내하지 않습니다.
 
 
 만두양(`@mandooxanx`)의 iOS 단축어 배포·업데이트 서비스입니다.
