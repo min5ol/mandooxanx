@@ -1,6 +1,6 @@
 # 🥟 만두양의 단축어 스튜디오
 
-> **2026-11-20 배포 점검:** YouTube Downloader v1.0.0 신규 설치 시 다른 iPhone에서 `a-Shell` 폴더 참조 오류가 보고되었습니다. 수정 링크 검증 전까지 신규 설치를 일시 중단합니다. 기존 iCloud 공유 링크는 원격으로 변경할 수 없습니다.
+> **2026-11-20 v1.0.1 재배포:** 다른 iPhone에서 처음 실행할 때 발생한 a-Shell 폴더 참조 오류 대응판입니다. [최신 단축어 설치](https://www.icloud.com/shortcuts/b68e1cccee1a4106a2f69f649b299e27) · [변경 내역 및 배포 상태](https://min5ol.github.io/mandooxanx/updates.json). 이전 v1.0.0 공유 링크는 이 저장소에서 더 이상 안내하지 않습니다.
 
 
 만두양(`@mandooxanx`)의 iOS 단축어 배포·업데이트 서비스입니다.
@@ -19,7 +19,7 @@
 | `scripts/validate_manifest.py` | JSON 형식, 버전 코드, iCloud URL을 배포 전 검사 |
 | `.github/workflows/publish-pages.yml` | PR에서 JSON 검사, main 병합 뒤 GitHub Pages 자동 배포 |
 
-> **현재는 v1.0.0 첫 공개 준비 중입니다.** 아직 iCloud 설치 링크를 등록하지 않았습니다. `status: preparing`와 `install_url: null`이므로 설치되지 않은 새 버전을 알리지 않습니다.
+> **현재 공개 버전: v1.0.1.** 최신 iCloud 공유 링크가 `published` 상태로 등록되어 있습니다. 설치 환경은 iPhone + a-Shell mini이며, 사용자 기기별 최초 실행 검증은 별도로 권장합니다.
 
 ## 처음 설정할 때
 
@@ -44,8 +44,8 @@ GitHub Pages 배포는 Actions 워크플로를 사용합니다. `main`에 병합
 - 검증된 `https://www.icloud.com/shortcuts/<32자리 ID>`만 공개합니다.
 - 공개 JSON과 설치 링크는 외부에 보이는 값입니다. 개인 키, 토큰, 비밀번호를 절대 넣지 않습니다.
 - **자동 확인**과 **무인 자동 설치**는 다릅니다. 설치·기존 단축어 교체에는 사용자의 승인이 필요합니다.
-- YouTube Downloader는 파일 저장 완료 후 업데이트 여부를 확인하고, iPhone 단축어의 마지막 구간에서 사용자에게 설치 여부를 물어봅니다.
-- B zone 안내 메뉴가 실제 단축어에 연결되기 전까지는 업데이트 알림이 표시되지 않습니다.
+- YouTube Downloader는 **새 다운로드 실행 시 다운로드 작업 전에** 공개 버전을 확인하고, 새 버전이 있으면 설치할지 선택하도록 설계했습니다. 콜백 복귀에는 업데이트 확인을 중복 실행하지 않습니다.
+- 설치된 단축어 내 버전 코드·업데이트 분기는 iPhone 실기기에서 별도로 확인해야 합니다.
 - 내부 Python 엔진 버전과 사용자 공개 버전은 별도로 관리합니다.
 
 ## 다음 단축어 추가
