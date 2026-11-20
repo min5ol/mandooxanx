@@ -4,13 +4,13 @@
   "shortcuts": {
     "youtube_downloader": {
       "name": "YouTube Downloader",
-      "status": "published",
+      "status": "preparing",
       "version": "1.0.0",
       "version_code": 1000000,
-      "install_url": "https://www.icloud.com/shortcuts/1b4d376be9ac49698888de1a44a45837",
+      "install_url": null,
       "notes": [
-        "v1.0.0 첫 공개",
-        "영상·음성·썸네일 저장 및 화질·날짜 선택"
+        "신규 설치 환경의 파일 경로 오류를 점검 중입니다.",
+        "수정 버전 배포 후 다시 안내합니다."
       ],
       "detail_url": "https://candy-acapella-626.notion.site/41e672d9690b8106a774cee4245980b3",
       "required": false
