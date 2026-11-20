@@ -2,8 +2,8 @@
 
 만두양(`@mandooxanx`)의 iOS 단축어 배포·업데이트 서비스입니다.
 
-- **배포 허브 (Notion)**: https://app.notion.com/p/41e672d9690b8106a774cee4245980b3
-- **YouTube Downloader 안내**: https://app.notion.com/p/41e672d9690b812a9658e32d6458de5a
+- **배포 허브 (Notion)**: https://candy-acapella-626.notion.site/41e672d9690b8106a774cee4245980b3
+- **YouTube Downloader 안내 (허브에서 선택)**: https://candy-acapella-626.notion.site/41e672d9690b8106a774cee4245980b3
 - **업데이트 JSON**: https://min5ol.github.io/mandooxanx/updates.json
 - **업데이트 서비스 안내**: https://min5ol.github.io/mandooxanx/
 
