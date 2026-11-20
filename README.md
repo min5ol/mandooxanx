@@ -1,5 +1,8 @@
 # 🥟 만두양의 단축어 스튜디오
 
+> **2026-11-20 배포 점검:** YouTube Downloader v1.0.0 신규 설치 시 다른 iPhone에서 `a-Shell` 폴더 참조 오류가 보고되었습니다. 수정 링크 검증 전까지 신규 설치를 일시 중단합니다. 기존 iCloud 공유 링크는 원격으로 변경할 수 없습니다.
+
+
 만두양(`@mandooxanx`)의 iOS 단축어 배포·업데이트 서비스입니다.
 
 - **배포 허브 (Notion)**: https://candy-acapella-626.notion.site/41e672d9690b8106a774cee4245980b3
