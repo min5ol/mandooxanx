@@ -1,6 +1,6 @@
 # 🥟 만두양의 단축어 스튜디오
 
-> **2026-11-20 v1.0.2 정식 배포:** 기존 a-Shell 폴더 참조 오류 수정에 더해 실행 전 업데이트 버전 비교값을 조정한 릴리스입니다. [최신 단축어 설치](https://www.icloud.com/shortcuts/3c49c4d0924b4a9798530b2210f3536b) · [변경 내역 및 배포 상태](https://min5ol.github.io/mandooxanx/updates.json). 이전 v1.0.0 공유 링크는 이 저장소에서 더 이상 안내하지 않습니다.
+> **2026-11-20 v1.0.3 정식 배포:** a-Shell에서 다운로드 완료 후 일부 기기에서 발생하던 자동 복귀 중단을 수정한 릴리스입니다. 복귀 스크립트 실행을 `source`에서 `sh`로 변경했습니다. [최신 단축어 설치](https://www.icloud.com/shortcuts/da6ebc6ae6f74a18a9f6e2b5590d2f8d) · [변경 내역 및 배포 상태](https://min5ol.github.io/mandooxanx/updates.json). 이전 v1.0.0~v1.0.2 공유 링크는 이 저장소에서 더 이상 안내하지 않습니다.
 
 
 만두양(`@mandooxanx`)의 iOS 단축어 배포·업데이트 서비스입니다.
@@ -19,7 +19,7 @@
 | `scripts/validate_manifest.py` | JSON 형식, 버전 코드, iCloud URL을 배포 전 검사 |
 | `.github/workflows/publish-pages.yml` | PR에서 JSON 검사, main 병합 뒤 GitHub Pages 자동 배포 |
 
-> **현재 공개 버전: v1.0.2.** 최신 iCloud 공유 링크가 `published` 상태로 등록되어 있습니다. 설치 환경은 iPhone + a-Shell mini이며, 사용자 기기별 최초 실행 검증은 별도로 권장합니다.
+> **현재 공개 버전: v1.0.3.** 최신 iCloud 공유 링크가 `published` 상태로 등록되어 있습니다. 설치 환경은 iPhone + a-Shell mini이며, 사용자 기기별 최초 실행 검증은 별도로 권장합니다.
 
 ## 처음 설정할 때
 
