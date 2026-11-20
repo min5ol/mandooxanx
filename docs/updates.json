@@ -5,12 +5,12 @@
     "youtube_downloader": {
       "name": "YouTube Downloader",
       "status": "published",
-      "version": "1.0.1",
-      "version_code": 1000001,
-      "install_url": "https://www.icloud.com/shortcuts/b68e1cccee1a4106a2f69f649b299e27",
+      "version": "1.0.2",
+      "version_code": 1000002,
+      "install_url": "https://www.icloud.com/shortcuts/3c49c4d0924b4a9798530b2210f3536b",
       "notes": [
-        "첫 설치 시 a-Shell 폴더 참조 오류 수정",
-        "a-Shell 파일 전달 및 저장 결과 확인 흐름 개선"
+        "단축어 버전 비교값 갱신",
+        "v1.0.1의 파일 경로 호환성 수정 유지"
       ],
       "detail_url": "https://candy-acapella-626.notion.site/41e672d9690b8106a774cee4245980b3",
       "required": false
