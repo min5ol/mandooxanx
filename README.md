@@ -1,6 +1,6 @@
 # 🥟 만두양의 단축어 스튜디오
 
-> **2026-11-23 신규 공개:** **인스타 미디어 다운로드 v1.0.0**을 출시했습니다. 게시물·릴스·스토리·하이라이트 저장, 캐러셀 선택, 릴스 커버 및 날짜 옵션을 지원합니다. 일반 게시물의 별도 배경 음악을 MP4로 변환하는 기능은 제외했습니다. [인스타 설치](https://www.icloud.com/shortcuts/46a99c43829e4dde927c52d9b842c741) · [인스타 사용 안내](https://app.notion.com/p/421672d9690b816baabace4550da76b4)
+> **2026-11-23 v1.0.1 업데이트:** 인스타 미디어 다운로드에 스토리 현재 항목만/전체/선택 저장, 공유 버튼 없는 계정의 아이디로 스토리 조회, 하이라이트 다중 선택, a-Shell mini 엔진 경로 오류 안내를 개선했습니다. [인스타 최신 설치](https://www.icloud.com/shortcuts/397ab1e23dee447aa1a229f4bf04daef) · [인스타 사용 안내](https://app.notion.com/p/421672d9690b816baabace4550da76b4)
 
 > **YouTube Downloader v1.0.3 (2026-11-20):** 일부 기기에서 자동 복귀가 중단되던 문제를 수정했습니다. [YouTube 설치](https://www.icloud.com/shortcuts/da6ebc6ae6f74a18a9f6e2b5590d2f8d).
 
@@ -22,7 +22,7 @@
 | `scripts/validate_manifest.py` | JSON 형식, 버전 코드, iCloud URL을 배포 전 검사 |
 | `.github/workflows/publish-pages.yml` | PR에서 JSON 검사, main 병합 뒤 GitHub Pages 자동 배포 |
 
-> **현재 공개 버전:** YouTube Downloader **v1.0.3**, 인스타 미디어 다운로드 **v1.0.0**. 두 항목 모두 `published`로 등록되어 있습니다. 설치 환경은 iPhone + a-Shell mini이며, 기기별 최초 실행 검증은 별도로 권장합니다.
+> **현재 공개 버전:** YouTube Downloader **v1.0.3**, 인스타 미디어 다운로드 **v1.0.1**. 두 항목 모두 `published`로 등록되어 있습니다. 설치 환경은 iPhone + a-Shell mini이며, 기기별 최초 실행 검증은 별도로 권장합니다.
 
 ## 처음 설정할 때
 
