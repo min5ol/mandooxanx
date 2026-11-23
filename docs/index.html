@@ -297,7 +297,7 @@
         <p>영상 저장부터 일상의 반복 작업까지. 기능은 알차게, 사용법은 간단하게. 마음에 드는 도구를 골라보세요.</p>
       </div>
       <div class="collection-top">
-        <span id="collection-count" class="counter">THE TOOLKIT / 001</span>
+        <span id="collection-count" class="counter">THE TOOLKIT / 002</span>
         <span class="small-note">앱마다 자기만의 컬러를 입혔어요.</span>
       </div>
       <div class="catalog-tools" id="catalog-tools">
@@ -316,6 +316,14 @@
             <div class="tool-poster" aria-hidden="true"><span class="tool-emoji youtube"></span></div>
           </div>
           <div class="tool-bottom"><a class="tool-link" href="https://candy-acapella-626.notion.site/41e672d9690b8106a774cee4245980b3" target="_blank" rel="noopener noreferrer">노션에서 설치 안내 보기 <span class="arrow" aria-hidden="true">↗</span></a><a class="install-link" href="https://www.icloud.com/shortcuts/da6ebc6ae6f74a18a9f6e2b5590d2f8d" target="_blank" rel="noopener noreferrer">단축어 설치 ↗</a></div>
+        </article>
+        <article class="tool-card" style="--service:#d24e9c">
+          <div class="tool-top"><span class="tool-id">NO. 002 / SNS</span><span class="tool-status live">배포 중</span></div>
+          <div class="tool-middle">
+            <div><span class="tool-label">INSTAGRAM</span><h3 class="tool-title">인스타 미디어 다운로드</h3><p class="tool-desc">게시물·릴스·스토리·하이라이트 저장. 캐러셀 선택부터 릴스 커버, 날짜 설정까지.</p><div class="tool-spec">PHOTO · VIDEO · COVER · v1.0.0</div></div>
+            <div class="tool-poster" aria-hidden="true" style="background:linear-gradient(145deg,#fff1f8,#f3e8f7)"><span class="tool-emoji">◎</span></div>
+          </div>
+          <div class="tool-bottom"><a class="tool-link" href="https://app.notion.com/p/421672d9690b816baabace4550da76b4" target="_blank" rel="noopener noreferrer">노션에서 설치 안내 보기 <span class="arrow" aria-hidden="true">↗</span></a><a class="install-link" href="https://www.icloud.com/shortcuts/46a99c43829e4dde927c52d9b842c741" target="_blank" rel="noopener noreferrer">단축어 설치 ↗</a></div>
         </article>
         <aside class="coming-card">
           <div class="eyebrow">THE NEXT DROP</div>
@@ -394,7 +402,7 @@
 
       const services = [
         {match:'youtube', label:'YOUTUBE',category:'영상·미디어',color:'#f03b4c',symbol:'▶',spec:'MP4 · M4A · MP3 · JPG'},
-        {match:'instagram',label:'INSTAGRAM',category:'SNS',color:'#d24e9c',symbol:'◎',spec:'SOCIAL UTILITY'},
+        {match:'instagram',label:'INSTAGRAM',category:'SNS',color:'#d24e9c',symbol:'◎',spec:'PHOTO · VIDEO · COVER'},
         {match:'tiktok',label:'TIKTOK',category:'SNS',color:'#22252c',symbol:'♪',spec:'SOCIAL UTILITY'},
         {match:'twitter',label:'X',category:'SNS',color:'#202027',symbol:'𝕏',spec:'SOCIAL UTILITY'},
         {match:'weverse',label:'WEVERSE',category:'SNS',color:'#21a85c',symbol:'W',spec:'SOCIAL UTILITY'},
@@ -425,6 +433,7 @@
       }
       function description(id){
         if(id.includes('youtube'))return '영상과 Shorts, 음성, 썸네일을 원하는 형식으로. 화질과 날짜까지 고르는 저장 도구.';
+        if(id.includes('instagram'))return '게시물·릴스·스토리·하이라이트 저장. 캐러셀 선택부터 릴스 커버, 날짜 설정까지.';
         return '필요한 일을 조금 더 가볍고 빠르게. 자세한 기능은 안내 페이지에서 확인해 보세요.';
       }
       function createCard(item,index){
