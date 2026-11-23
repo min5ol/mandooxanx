@@ -1,6 +1,9 @@
 # 인스타 미디어 다운로드 v1.0.1 · 배포 준비
 
-**상태: iCloud v1.0.1 최종 공유 링크 발급 전. 이 브랜치는 아직 공개 배포가 아닙니다.**
+**상태: v1.0.1 정식 공개 (2026-11-23).**
+
+- iCloud 설치: https://www.icloud.com/shortcuts/397ab1e23dee447aa1a229f4bf04daef
+- 공개 버전 코드: `1000001`
 
 ## 변경 사항
 
@@ -24,12 +27,11 @@ sed -n '/^#!/,$p' mdx_instagram_launch.txt > mdx_instagram_launch.sh
 sh mdx_instagram_launch.sh
 ```
 
-## 최종 배포 게이트
+## 배포 기록
 
-1. 사용자 아이폰에서 런처 파일 교체 후 정상 실행 확인.
-2. `인스타 미디어 다운로드` 단축어 새 iCloud 링크 발급 (기존 v1.0.0 설치 URL 재사용 금지).
-3. `docs/updates.json`의 instagram_downloader를 v1.0.1 / 1000001 / 신규 설치 URL로 갱신.
-4. README 및 노션 상세 페이지와 허브를 v1.0.1로 갱신.
-5. PR CI 검증 후 main 병합, Pages 배포 확인.
+- 새 iCloud v1.0.1 공유 링크 연결
+- GitHub Pages: `docs/updates.json`의 Instagram 공개 버전 1.0.1 갱신
+- 노션 상세 페이지와 배포 허브에 기능 안내 및 오류 해결 안내 반영
+- GitHub PR #13 검증 후 병합, Pages 자동 배포
 
-기존 v1.0.0 공개 다운로드는 새로운 링크가 발급될 때까지 유지.
+기존 v1.0.0은 배포 이력으로만 유지하며 새 설치는 v1.0.1을 사용합니다.
