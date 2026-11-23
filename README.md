@@ -1,12 +1,15 @@
 # 🥟 만두양의 단축어 스튜디오
 
-> **2026-11-20 v1.0.3 정식 배포:** a-Shell에서 다운로드 완료 후 일부 기기에서 발생하던 자동 복귀 중단을 수정한 릴리스입니다. 복귀 스크립트 실행을 `source`에서 `sh`로 변경했습니다. [최신 단축어 설치](https://www.icloud.com/shortcuts/da6ebc6ae6f74a18a9f6e2b5590d2f8d) · [변경 내역 및 배포 상태](https://min5ol.github.io/mandooxanx/updates.json). 이전 v1.0.0~v1.0.2 공유 링크는 이 저장소에서 더 이상 안내하지 않습니다.
+> **2026-11-23 신규 공개:** **인스타 미디어 다운로드 v1.0.0**을 출시했습니다. 게시물·릴스·스토리·하이라이트 저장, 캐러셀 선택, 릴스 커버 및 날짜 옵션을 지원합니다. 일반 게시물의 별도 배경 음악을 MP4로 변환하는 기능은 제외했습니다. [인스타 설치](https://www.icloud.com/shortcuts/46a99c43829e4dde927c52d9b842c741) · [인스타 사용 안내](https://app.notion.com/p/421672d9690b816baabace4550da76b4)
+
+> **YouTube Downloader v1.0.3 (2026-11-20):** 일부 기기에서 자동 복귀가 중단되던 문제를 수정했습니다. [YouTube 설치](https://www.icloud.com/shortcuts/da6ebc6ae6f74a18a9f6e2b5590d2f8d).
 
 
 만두양(`@mandooxanx`)의 iOS 단축어 배포·업데이트 서비스입니다.
 
 - **배포 허브 (Notion)**: https://candy-acapella-626.notion.site/41e672d9690b8106a774cee4245980b3
 - **YouTube Downloader 안내 (허브에서 선택)**: https://candy-acapella-626.notion.site/41e672d9690b8106a774cee4245980b3
+- **인스타 미디어 다운로드 안내**: https://app.notion.com/p/421672d9690b816baabace4550da76b4
 - **업데이트 JSON**: https://min5ol.github.io/mandooxanx/updates.json
 - **업데이트 서비스 안내**: https://min5ol.github.io/mandooxanx/
 
@@ -19,7 +22,7 @@
 | `scripts/validate_manifest.py` | JSON 형식, 버전 코드, iCloud URL을 배포 전 검사 |
 | `.github/workflows/publish-pages.yml` | PR에서 JSON 검사, main 병합 뒤 GitHub Pages 자동 배포 |
 
-> **현재 공개 버전: v1.0.3.** 최신 iCloud 공유 링크가 `published` 상태로 등록되어 있습니다. 설치 환경은 iPhone + a-Shell mini이며, 사용자 기기별 최초 실행 검증은 별도로 권장합니다.
+> **현재 공개 버전:** YouTube Downloader **v1.0.3**, 인스타 미디어 다운로드 **v1.0.0**. 두 항목 모두 `published`로 등록되어 있습니다. 설치 환경은 iPhone + a-Shell mini이며, 기기별 최초 실행 검증은 별도로 권장합니다.
 
 ## 처음 설정할 때
 
@@ -44,12 +47,12 @@ GitHub Pages 배포는 Actions 워크플로를 사용합니다. `main`에 병합
 - 검증된 `https://www.icloud.com/shortcuts/<32자리 ID>`만 공개합니다.
 - 공개 JSON과 설치 링크는 외부에 보이는 값입니다. 개인 키, 토큰, 비밀번호를 절대 넣지 않습니다.
 - **자동 확인**과 **무인 자동 설치**는 다릅니다. 설치·기존 단축어 교체에는 사용자의 승인이 필요합니다.
-- YouTube Downloader는 **새 다운로드 실행 시 다운로드 작업 전에** 공개 버전을 확인하고, 새 버전이 있으면 설치할지 선택하도록 설계했습니다. 콜백 복귀에는 업데이트 확인을 중복 실행하지 않습니다.
+- YouTube Downloader와 인스타 미디어 다운로드는 **새 다운로드 실행 시 다운로드 작업 전에** 공개 버전을 확인하고, 새 버전이 있으면 설치할지 선택하도록 설계했습니다. 콜백 복귀에는 업데이트 확인을 중복 실행하지 않습니다.
 - 설치된 단축어 내 버전 코드·업데이트 분기는 iPhone 실기기에서 별도로 확인해야 합니다.
 - 내부 Python 엔진 버전과 사용자 공개 버전은 별도로 관리합니다.
 
-## 다음 단축어 추가
+## 단축어 등록 및 다음 배포
 
-`shortcuts` 객체에 `instagram_downloader`, `tiktok_downloader` 등 실제 배포할 ID를 추가합니다. 각 단축어는 자기 ID만 읽고 다른 앱의 업데이트에는 반응하지 않습니다.
+`shortcuts` 객체에 `instagram_downloader`가 정식 배포로 등록되어 있습니다. 다음 단축어는 `tiktok_downloader`처럼 고유 ID를 사용해 추가하며, 각 단축어는 자기 ID만 읽고 다른 앱의 업데이트에는 반응하지 않습니다.
 
 © 2026 만두양
