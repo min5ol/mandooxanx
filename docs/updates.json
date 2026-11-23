@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "published_at": "2026-11-20",
+  "published_at": "2026-11-23",
   "shortcuts": {
     "youtube_downloader": {
       "name": "YouTube Downloader",
@@ -14,6 +14,21 @@
         "기존 a-Shell 파일 전달 및 버전 확인 개선 유지"
       ],
       "detail_url": "https://candy-acapella-626.notion.site/41e672d9690b8106a774cee4245980b3",
+      "required": false
+    },
+    "instagram_downloader": {
+      "name": "인스타 미디어 다운로드",
+      "status": "published",
+      "version": "1.0.0",
+      "version_code": 1000000,
+      "install_url": "https://www.icloud.com/shortcuts/46a99c43829e4dde927c52d9b842c741",
+      "notes": [
+        "인스타그램 게시물·릴스·스토리·하이라이트 사진 및 영상 다운로드",
+        "단일 미디어 자동 저장, 캐러셀 전체·선택 저장 및 날짜 선택",
+        "릴스 커버 저장, 스토리 음악 포함 영상 옵션, 실제 저장 개수 안내",
+        "일반 게시물의 별도 음악 MP4 변환은 지원하지 않음"
+      ],
+      "detail_url": "https://app.notion.com/p/421672d9690b816baabace4550da76b4",
       "required": false
     }
   }
