@@ -19,14 +19,14 @@
     "instagram_downloader": {
       "name": "인스타 미디어 다운로드",
       "status": "published",
-      "version": "1.0.0",
-      "version_code": 1000000,
-      "install_url": "https://www.icloud.com/shortcuts/46a99c43829e4dde927c52d9b842c741",
+      "version": "1.0.1",
+      "version_code": 1000001,
+      "install_url": "https://www.icloud.com/shortcuts/397ab1e23dee447aa1a229f4bf04daef",
       "notes": [
-        "인스타그램 게시물·릴스·스토리·하이라이트 사진 및 영상 다운로드",
-        "단일 미디어 자동 저장, 캐러셀 전체·선택 저장 및 날짜 선택",
-        "릴스 커버 저장, 스토리 음악 포함 영상 옵션, 실제 저장 개수 안내",
-        "일반 게시물의 별도 음악 MP4 변환은 지원하지 않음"
+        "스토리 링크에서 현재 항목만·전체·원하는 스토리 선택 저장 추가",
+        "공유 버튼이 없어도 계정 아이디로 접근 가능한 활성 스토리 조회",
+        "하이라이트 전체·선택 다운로드 및 스토리 항목별 미디어 처리 개선",
+        "a-Shell mini 엔진 파일 경로 확인 보완 및 파일 누락 오류 안내 개선"
       ],
       "detail_url": "https://app.notion.com/p/421672d9690b816baabace4550da76b4",
       "required": false
