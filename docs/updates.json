@@ -1,19 +1,20 @@
 {
   "schema": 1,
-  "published_at": "2026-11-23",
+  "published_at": "2026-11-27",
   "shortcuts": {
     "youtube_downloader": {
       "name": "YouTube Downloader",
       "status": "published",
-      "version": "1.0.3",
-      "version_code": 1000003,
-      "install_url": "https://www.icloud.com/shortcuts/da6ebc6ae6f74a18a9f6e2b5590d2f8d",
+      "version": "1.1.0",
+      "version_code": 1001000,
+      "install_url": "https://www.icloud.com/shortcuts/219734a165a443178ef31e03231f791c",
       "notes": [
-        "일부 iPhone에서 a-Shell 완료 후 자동 복귀가 멈추던 문제 수정",
-        "복귀 스크립트 실행을 source에서 sh로 변경",
-        "기존 a-Shell 파일 전달 및 버전 확인 개선 유지"
+        "항상 최고화질·항상 날짜·항상 호환 변환 설정, 설정 초기화 및 링크 직접 입력 추가",
+        "공유 시트에서 실행한 영상·Shorts로 복귀, 사진 앱 직접 저장 및 장시간·대용량 처리 개선",
+        "호환 H.264·HEVC/HDR 보존 우선, 변환 동의, 저장 공간 검사 및 조건부 이어받기·소스 재사용",
+        "MANDOO STUDIO Console UI 1.0, 실측 품질·완료 알림, 오류 원인·해결 방법 및 제보 정보 개선"
       ],
-      "detail_url": "https://candy-acapella-626.notion.site/41e672d9690b8106a774cee4245980b3",
+      "detail_url": "https://app.notion.com/p/41e672d9690b812a9658e32d6458de5a",
       "required": false
     },
     "instagram_downloader": {
