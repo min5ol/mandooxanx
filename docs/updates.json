@@ -20,14 +20,13 @@
     "instagram_downloader": {
       "name": "인스타 미디어 다운로드",
       "status": "published",
-      "version": "1.1.0",
-      "version_code": 1001000,
-      "install_url": "https://www.icloud.com/shortcuts/4217fad2479e46e78f3bb1ee6093ce3c",
+      "version": "1.1.1",
+      "version_code": 1001001,
+      "install_url": "https://www.icloud.com/shortcuts/c10ec80525824af689ec75d239eef87c",
       "notes": [
-        "로그인·로그아웃 자동 복귀 및 메일·2차 인증 재개 개선",
-        "릴스·스토리 고화질 후보 탐색 및 실제 품질 검증, 호환 스트림 보존과 자동 호환 변환",
-        "사진 앱 직접 저장, 다중 미디어 미리보기·개별 선택 및 게시자·날짜 기반 파일명 개선",
-        "항상 날짜 설정·초기화, 해당 미디어 복귀, MDX Console UI 1.0 및 오류 제보 개선"
+        "로그인·로그아웃 흐름 통합 및 2차 인증 중 불필요한 종료·인증 재개 반복 오류 수정",
+        "열람 권한이 있는 비공개 계정 스토리의 Instagram 공유 링크(/share/) 인식 개선",
+        "링크 인식 실패 원인 안내 및 개인정보를 제외한 세부 제보 정보 개선"
       ],
       "detail_url": "https://app.notion.com/p/421672d9690b816baabace4550da76b4",
       "required": false
