@@ -20,14 +20,14 @@
     "instagram_downloader": {
       "name": "인스타 미디어 다운로드",
       "status": "published",
-      "version": "1.0.1",
-      "version_code": 1000001,
-      "install_url": "https://www.icloud.com/shortcuts/397ab1e23dee447aa1a229f4bf04daef",
+      "version": "1.1.0",
+      "version_code": 1001000,
+      "install_url": "https://www.icloud.com/shortcuts/4217fad2479e46e78f3bb1ee6093ce3c",
       "notes": [
-        "스토리 링크에서 현재 항목만·전체·원하는 스토리 선택 저장 추가",
-        "공유 버튼이 없어도 계정 아이디로 접근 가능한 활성 스토리 조회",
-        "하이라이트 전체·선택 다운로드 및 스토리 항목별 미디어 처리 개선",
-        "a-Shell mini 엔진 파일 경로 확인 보완 및 파일 누락 오류 안내 개선"
+        "로그인·로그아웃 자동 복귀 및 메일·2차 인증 재개 개선",
+        "릴스·스토리 고화질 후보 탐색 및 실제 품질 검증, 호환 스트림 보존과 자동 호환 변환",
+        "사진 앱 직접 저장, 다중 미디어 미리보기·개별 선택 및 게시자·날짜 기반 파일명 개선",
+        "항상 날짜 설정·초기화, 해당 미디어 복귀, MDX Console UI 1.0 및 오류 제보 개선"
       ],
       "detail_url": "https://app.notion.com/p/421672d9690b816baabace4550da76b4",
       "required": false
